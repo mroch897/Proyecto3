@@ -1,0 +1,19 @@
+
+
+.button-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; /
+  }
+
+  .copy{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .myBtn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    /* Añade otros estilos si lo deseas */
+  }

@@ -1,0 +1,36 @@
+
+
+.myHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .img-container{
+
+    width: 30%;
+  }
+
+  .img-container img{
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+
+.description{
+    width:40% ;
+}
+
+ 
+
+
+  q{
+    font-style: italic;
+    }
