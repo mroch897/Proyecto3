@@ -1,8 +1,10 @@
 import "./style.css";
+import { cleanPage } from "../../utils/cleanPage";
 
-export const renderHome = () =>{
+export const Home = () =>{
     const home=document.querySelector("main");
-
+    cleanPage(home);
+    
     home.innerHTML=`
     
     <section class="myHome">

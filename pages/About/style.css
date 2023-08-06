@@ -1,0 +1,25 @@
+.container{
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 2rem;
+    
+}
+
+.experience-container {
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(1000px,1fr));
+gap:5rem;
+}
+
+
+.title {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+}
+

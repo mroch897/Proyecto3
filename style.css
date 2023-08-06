@@ -22,3 +22,21 @@ body {
 
   background-color: var(--color-primary);
 }
+
+
+li {
+  list-style-type: none;
+  }
+  a {
+  text-decoration: none;
+  color: inherit;
+  }
+  html {
+  scroll-behavior: smooth;
+  }
+
+
+
+  main{
+    height: 100%;
+  }

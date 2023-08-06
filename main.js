@@ -3,8 +3,11 @@ import './style.css'
 
 import { Header } from './components/Navbar/Navbar'
 import { Footer } from './components/footer/footer';
-import { ProjectCard } from './components/ProjectCard/ProjectCard';
+import { Home } from './pages/Home/home';
 import { linkPage } from './utils/linkPage';
+import { Projects } from './pages/Projects/Projects';
+import { aboutMe } from './pages/About/About';
+
 
 
 
@@ -16,10 +19,11 @@ import { linkPage } from './utils/linkPage';
 document.querySelector("header").innerHTML = Header();
 document.querySelector("footer").innerHTML = Footer();
 
+linkPage("#homeLink", Home);
+linkPage("#linkAbout", aboutMe);
+linkPage("#linkProjects", Projects);
 
-linkPage("#linkProjects", ProjectCard);
 
-
-
+Home();
 
 

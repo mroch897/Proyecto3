@@ -3,12 +3,14 @@ import { cleanPage } from "../../utils/cleanPage";
 import { projects } from "../../data/projects";
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
 
+
+
 export const Projects=()=>{
     const main= document.querySelector("main");
     cleanPage(main);
     main.innerHTML=`
     <section class="projects">
-    <h2>Featured Projects</h2>
+    <h2>Proyectos</h2>
     <div class="projects-container"></div>
     </section>
     `;
@@ -22,11 +24,6 @@ export const Projects=()=>{
 
     
 
-    
-    
-    
-    
-    
     
 
 }

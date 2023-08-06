@@ -5,37 +5,31 @@ export const Header =()=>{
 
     return`
     
-    <article class="header">
-
-    <img class="logo" src="./icons/logo.png" alt="logo" />
-
-    <section class="header-nav">
-    <label class="label-hamburger"for="hamburger">
-    <img class="menu" src="/icons/lineas-h.png" alt="icon-hamburguer"/>
-    </label>
-
-    <input class="nav-input" type="checkbox" id="hamburger" />
-
-    <nav class="navbar">
-    <ul class="nav-list">
-    <li><a href="#" id="homeLink">Home</a></li>
-    <li><a href="#" id="linkAbout">Sobre mi</a></li>
-    <li><a href="#" id="linkProjects">Proyectos</a></li>
-    </ul>
     
-    </nav>
+    <div class="mr-section-header-layout mr-layout-flex">
+      <a href="#" role="link" class="mr-section-header-title">
+        <img src="./icons/logo.png" alt="logo" class="logo"/>
+      </a>
+      <label class="mr-hamburguer-icon" for="hamburger">&#9776;</label>
+      <input type="checkbox" class="mr-hamburguer" id="hamburger">
+
+      <!-- MENU -->
+      <nav role="navigation" class="mr-section-nav">
+        <ul class="mr-layout-flex mr-section-header-nav">
+          <li><a href="#" id="homeLink" class="mr-section-header--nav-link">Home</a></li>
+          <li> <a href="#" id="linkAbout" class="mr-section-header--nav-link">Sobre mi</a></li>
+          <li><a href="#" id="linkProjects" class="mr-section-header--nav-link">Proyectos</a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
     
-    </section>
-
-   
-
-
-
-
-    </article>
+    
     
     
     
     `
 
 };
+
+

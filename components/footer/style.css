@@ -15,5 +15,14 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    /* Añade otros estilos si lo deseas */
+  
   }
+
+
+
+  @media (max-width: 770px) {
+footer {
+padding: 0 2rem;
+gap: 2rem;
+}
+}

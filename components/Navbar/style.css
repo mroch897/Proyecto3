@@ -1,48 +1,85 @@
-.header{
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    gap: 4rem;
-    padding: 0 2rem;
-    
-   
+.mr-hamburguer,
+.mr-hamburguer-icon {
+  display: none;
 }
 
-.header-nav{
-    display: flex;
-    width: 100;
+.mr-section-header-layout {
+  text-transform: uppercase;
+  align-items: center;
+  padding: 20px 70px;
+  
 }
 
-.label-hamburger{
-    display: none;
+.mr-section-header-nav {
+  gap: 1.5rem;
 }
 
-#hamburger{
-    display: none;
+.mr-layout-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
-.logo {
+.mr-section-header--nav-link {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+
+.mr-section-header--nav-link::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: black;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.55s;
+}
+
+.mr-section-header--nav-link:hover::after {
+  transform: scale(1, 1);
+}
+
+.logo{
     width: 50px;
     height: 50px;
-
 }
 
-.menu {
-    width: 3rem;
-}
+@media screen and (max-width: 48rem) {
+    .mr-section-header-layout {
+      flex-direction: column;
+      font-style: normal;
+    }
+  
+    .mr-hamburguer-icon {
+      display: inline-block;
+      padding: 0.6rem;
+    }
+  
+    .mr-section-nav {
+      display: none;
+    }
+  
+    .mr-sign-container {
+      display: none;
+    }
+  
+    .mr-hamburguer:checked ~ .mr-section-nav {
+      display: block;
+      padding: 1.5rem 0;
+    }
+  
+    .mr-hamburguer:checked ~ .mr-sign-container {
+      display: block;
+      padding: 1.5rem 0;
+    }
+  
+    .mr-section-header-nav {
+      flex-direction: column;
+    }
 
-
-.navbar{
-    align-items: center;
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-
-}
-
-.nav-list{
-    display: flex;
-    gap:1.5rem;
-
-}
+    .logo {
+        display: none;
+    }
+  }
