@@ -25,4 +25,11 @@ footer {
 padding: 0 2rem;
 gap: 2rem;
 }
+.copy{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+
 }

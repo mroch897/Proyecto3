@@ -10,6 +10,7 @@ export const ExperienceCard = (experience) => `
 </a>
 
 </div>
+
 <div class="description">
 <p class="descriptiontext">${experience.description}</p>
 <div class="date">

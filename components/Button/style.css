@@ -8,3 +8,14 @@
     width: 30px;
     height: 30px;
 }
+
+
+
+@media (max-width: 770px) {
+ 
+    .myBtn img{ 
+        width: 20px;
+        height: 20px;
+    }
+    
+    }

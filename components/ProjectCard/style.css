@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 1rem;
   padding:15px;
-
   border-radius: 35px;
   transition: box-shadow 0.5s ease;
   
@@ -72,4 +71,30 @@ width: 100%;
 .tech >img{
   width: 50px;
   height: 50px;
+}
+
+
+@media (max-width: 770px) {
+  figure{
+    width: 70%;
+  }
+
+  .project-card img {
+    object-fit: contain;
+  }
+
+  .project-card > .headerCard > div {
+    display: block;
+  }
+
+  .project-card > .headerCard > div > a > img {
+    width: 20px;
+    height: 20px;
+  } 
+
+  .headerCard{
+    padding-right: 0;
+  }
+    
+ 
 }

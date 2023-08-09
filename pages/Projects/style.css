@@ -11,6 +11,10 @@
     .projects {
     padding: 0 2rem;
     }
+
+    h2{
+        text-align: center;
+    }
     }
     .projects > h2 {
     font-weight: 100;
@@ -23,3 +27,5 @@
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap:8rem;
     }
+
+    

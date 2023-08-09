@@ -21,6 +21,7 @@ main.innerHTML = `
 const container= document.querySelector('.experience-container');
 for(const experiences of experience){
     const ex=document.createElement("figure");
+    ex.classList.add("experienceFigure");
     ex.innerHTML=ExperienceCard(experiences);
     container.appendChild(ex);
 }
