@@ -1,36 +1,81 @@
-
-
 .myHome {
-    display: flex;
+  display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
-    padding-top: 20px;
+    width: 80%;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+.img-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto; 
+}
+
+
+.description {
+  width: 100%;
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+
+q {
+  font-style: italic;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.live{
+  margin-top: 10px;
+}
+
+.button-cv{
+  margin-top: 10px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.role{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+  .myHome {
+      flex-direction: column; /* Cambia a diseño de columna en pantallas pequeñas */
+      align-items: center;
+  }
+
+  .img-container, .description {
+      max-width: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+  }
+
+  .img-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
   }
   
-  .img-container{
-
-    width: 30%;
+  .live{
+    display: none;
   }
-
-  .img-container img{
-    height: 300px;
-    width: 250px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    background-size: 100% auto;
+  
 }
-
-
-.description{
-    width:40% ;
-}
-
- 
-
-
-  q{
-    font-style: italic;
-    }

@@ -41,6 +41,11 @@
     
       gap: 4rem;
     }
+
+    .facts{
+      margin-left: 15%;
+
+    }
   
     .title {
       font-size: 2rem; /* Volver al tamaño original del título */
