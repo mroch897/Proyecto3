@@ -1,17 +1,17 @@
 
 import './style.css'
 
-import { Header } from './components/Navbar/Navbar'
-import { Footer } from './components/footer/footer';
-import { Home } from './pages/Home/home';
-import { linkPage } from './utils/linkPage';
-import { Projects } from './pages/Projects/Projects';
-import { aboutMe } from './pages/About/About';
+import { Header } from './components/Navbar/Navbar.js'
+import { Footer } from './components/footer/footer.js';
+import {Home} from './pages/Home/home.js';
+import { linkPage } from './utils/linkPage.js';
+import { Projects } from './pages/Projects/Projects.js';
+import { aboutMe } from './pages/About/About.js';
 
 
 
 
-
+ 
 
 
 
